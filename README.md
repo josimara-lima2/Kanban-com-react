@@ -1,2 +1,2 @@
 # Kanban-com-react
-Created with CodeSandbox
+Link para o projeto [aqui](https://nq98v.csb.app/)
