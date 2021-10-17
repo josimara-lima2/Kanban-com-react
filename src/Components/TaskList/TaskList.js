@@ -1,7 +1,7 @@
 import React from "react";
 import "./TaskList.css";
 import PropTypes from "prop-types";
-import plusIcon from "../../img/plus.svg";
+import plusIcon from "../../img/add-task.svg";
 import TaskItem from "../TaskItem/taskItem";
 
 export default function TaskList({
