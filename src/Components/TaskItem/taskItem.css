@@ -8,6 +8,7 @@
   padding: 8px 4px;
   color: #222;
   font-size: 14px;
+  
 }
 
 .task-item input[type="text"] {
@@ -21,4 +22,31 @@
   display: block;
   width: 100%;
   margin-top: 8px;
+}
+
+.task-item .btn {
+  margin-bottom: 8px;
+  margin-top:-4px;
+  padding: 4px;
+  display: flex;
+  justify-content: center;
+  background: none;
+  border: none;
+  border-radius: 3px;
+  background: #00b8d4;
+  transition: background-color 0.3s;
+}
+
+.task-item .btn:hover {
+  background-color: #0091a8;
+  cursor: pointer;
+}
+
+.task-item .btn img {
+  width: 3px;
+  height: 3px;
+  margin-right: 2px;
+  margin-bottom: 2px;
+  color: white;
+  
 }

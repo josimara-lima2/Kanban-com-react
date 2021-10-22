@@ -29,6 +29,8 @@ export default function TaskItem({
     }
   };
 
+  
+
   const onTaskState = (event) => {
     onTaskUptade(id, title, event.target.value);
   };
@@ -47,13 +49,20 @@ export default function TaskItem({
   } else {
     return (
       <div className="task-item">
-        <div onClick={(e) => setIsEditing(true)}>{editableTitle}</div>
+           <button onClick={(e) => onDeleteTask(id)} className="btn">
+           X
+           </button>
+        <div onClick={(e) => setIsEditing(true)}>{editableTitle}
+        
+        </div>
         <select onChange={onTaskState} value={taskState}>
           <option value="Pendente">Pendente</option>
           <option value="Fazendo">Fazendo</option>
           <option value="Completo">Completo</option>
         </select>
+
       </div>
+
     );
   }
 }
