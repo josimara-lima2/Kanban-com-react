@@ -29,7 +29,6 @@ export default function TaskItem({
     }
   };
 
-  
 
   const onTaskState = (event) => {
     onTaskUptade(id, title, event.target.value);
@@ -37,7 +36,7 @@ export default function TaskItem({
 
   if (isEditing) {
     return (
-      <div className="task-item">
+      <div className= "task-item">
         <input
           type="text"
           value={editableTitle}

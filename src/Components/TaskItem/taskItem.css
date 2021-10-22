@@ -1,4 +1,4 @@
-.task-item {
+.task-item{
   background-color: #fff;
   border-radius: 3px;
   box-shadow: 0 1px 0 rgba(9, 30, 66, 0.25);
@@ -10,6 +10,8 @@
   font-size: 14px;
   
 }
+
+
 
 .task-item input[type="text"] {
   border: none;
@@ -26,7 +28,7 @@
 
 .task-item .btn {
   margin-bottom: 8px;
-  margin-top:-4px;
+  margin-top:-3px;
   padding: 4px;
   display: flex;
   justify-content: center;
@@ -50,3 +52,4 @@
   color: white;
   
 }
+
